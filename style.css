@@ -13,39 +13,38 @@ body{
   flex-wrap: wrap;
 }
 .calculator button {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    border-radius: 5px;
-    border: none;
-    background-color: #f1f1f1;
-    color: #000;
-    margin: 5px;
-    cursor: pointer;
-  }
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #000;
+  margin: 5px;
+  cursor: pointer;
+}
   
-  .calculator #screen {
-    width: 198px;
-    height: 57px;
-    font-size: 30px;
-    border-radius: 5px;
-    border: none;
-    margin-top: 5px;
-    background-color: #fff;
-    color: #000;
-    text-align: left;
-    margin-left: 1px;
+.calculator #screen {
+  width: 198px;
+  height: 57px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  margin-left: 1px;
 
-  }
+}
  
-  .calculator .number {
-    background: #6a00ff;
-  }
-  .calculator .symbol {
-    background: #6a00ff;
-  }
-  .calculator button:last-child {
-    background-color:#ff1690 ;
-    color: #fff;
-  }
-  
+.calculator .number {
+  background: #6a00ff;
+}
+.calculator .symbol {
+  background: #6a00ff;
+}
+.calculator button:last-child {
+  background-color:#ff1690 ;
+  color: #fff;
+}
