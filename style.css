@@ -25,9 +25,10 @@ body{
 }
 
 .calculator #screen {
-  width: 230px;
+  width: 215px;
   height: 67px;
   font-size: 30px;
+  padding-left: 15px;
   border-radius: 5px;
   border: none;
   margin-top: 5px;
@@ -39,11 +40,9 @@ body{
  
 .calculator .number {
   background: #6a00ff;
+  border-radius: 50%;
 }
 .calculator .symbol {
-  background: #6a00ff;
-}
-.calculator button:last-child {
-  background-color:#ff1690 ;
-  color: #fff;
+  background-color:#df0e8b ;
+  border-radius: 50%;
 }
