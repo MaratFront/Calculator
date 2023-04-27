@@ -1,5 +1,5 @@
 body{
-    width: 290px;
+    width: 320px;
     margin: 120px auto;
     background: radial-gradient(circle, #ff0080, #6a00ff);
 
@@ -13,8 +13,8 @@ body{
   flex-wrap: wrap;
 }
 .calculator button {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     font-size: 30px;
     border-radius: 5px;
     border: none;
@@ -25,8 +25,8 @@ body{
   }
   
   .calculator #screen {
-    width: 170px;
-    height: 47px;
+    width: 198px;
+    height: 57px;
     font-size: 30px;
     border-radius: 5px;
     border: none;
@@ -34,7 +34,7 @@ body{
     background-color: #fff;
     color: #000;
     text-align: left;
-
+    margin-left: 1px;
 
   }
  
@@ -49,6 +49,3 @@ body{
     color: #fff;
   }
   
-/*@media(min-width:640px) {
-  body{width: 500px;}
-}*/
